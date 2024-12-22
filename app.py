@@ -13,6 +13,7 @@ scalar=pickle.load(open('scaling.pkl','rb'))
 def home():
     return render_template('home.html')
 
+## Api URL FOR TESTING on ...its
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
     data=request.json['data']
