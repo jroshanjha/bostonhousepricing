@@ -6,3 +6,15 @@ matplotlib
 gunicorn
 seaborn
 
+
+# # Machine Learning Dependencies
+# scikit-learn==1.2.2
+# numpy==1.23.5
+# pandas==2.0.1
+# joblib==1.2.0
+
+# # Web Framework
+# flask==2.3.2
+
+# # Optional: For production deployment
+# gunicorn==20.1.0
